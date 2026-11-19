@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171a27">
+  <meta name="description" content="Harubaru Arcade は個人制作のブラウザゲームを集めたゲームポータルです。">
+  <title>Harubaru Arcade｜ブラウザゲーム一覧</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./catalog.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#library">ゲーム一覧へ</a>
+  <header class="mast">
+    <div class="shell mast-inner">
+      <span class="brand"><span class="controller" aria-hidden="true"><i></i></span>HARUBARU ARCADE</span>
+      <a class="repo" href="https://github.com/harubaru-cell/harubaru-arcade">GitHub</a>
+    </div>
+  </header>
+  <main class="shell" id="library">
+    <div class="welcome">
+      <h1 lang="en">Game Library<span aria-hidden="true">.</span></h1>
+      <p>個人制作のブラウザゲームを集めました。好きな作品を選んで遊べます。</p>
+    </div>
+    <div class="section-head">
+      <span class="squares" aria-hidden="true"></span><h2>ゲーム一覧</h2><span id="count" hidden></span>
+    </div>
+    <div id="games" class="games"></div>
+    <p id="status" role="status" hidden></p>
+    <noscript><p>作品一覧を表示するには、ブラウザのJavaScriptを有効にしてください。</p></noscript>
+  </main>
+  <template id="game-template">
+    <article class="game">
+      <div class="cover"></div>
+      <div class="details">
+        <div class="meta"></div>
+        <h3></h3>
+        <p class="description"></p>
+        <div class="actions"><a class="play"><span class="triangle" aria-hidden="true"></span>プレイする</a></div>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

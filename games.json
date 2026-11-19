@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Touchline Island Cup",
+    "description": "5人制サッカーでFWを操作し、3分間の試合に挑もう。味方の走りにスルーパスを合わせるか、自分でゴールを狙うかはあなた次第。",
+    "url": "https://harubaru-cell.github.io/touchline-island-cup/",
+    "genre": "スポーツ",
+    "devices": ["PC", "スマホ"],
+    "cover": "./assets/island-cup.webp",
+    "coverAlt": "選手の背後から、芝のピッチとゴールを見渡す試合画面",
+    "repository": "https://github.com/harubaru-cell/touchline-island-cup"
+  }
+]
