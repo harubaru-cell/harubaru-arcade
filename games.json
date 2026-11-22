@@ -8,5 +8,16 @@
     "cover": "./assets/island-cup.webp",
     "coverAlt": "選手の背後から、芝のピッチとゴールを見渡す試合画面",
     "repository": "https://github.com/harubaru-cell/touchline-island-cup"
+  },
+  {
+    "title": "FLAG ARENA",
+    "description": "5対5のフラッグ争奪戦。選手の編成や戦術を決め、CPU同士の試合を観戦しよう。",
+    "url": "https://harubaru-cell.github.io/flag-arena/",
+    "genre": "戦術シミュレーション",
+    "devices": [
+      "PC",
+      "スマホ"
+    ],
+    "repository": "https://github.com/harubaru-cell/flag-arena"
   }
 ]
